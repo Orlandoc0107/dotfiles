@@ -1,0 +1,6 @@
+udiskie &
+sxhkd &
+picom &
+nitrogen --restore &
+exec bspwm
+cbatticon &
