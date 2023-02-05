@@ -137,7 +137,52 @@ echo "|--------------------------------------------------------|"
 echo "|                  Instalando Editores                   |"
 echo "|--------------------------------------------------------|"
 echo "Intalando Editores"
-sudo pacman -S code nano vim kate --noconfirm --needed
+sudo pacman -S code nano vim  --noconfirm --needed
+echo "Instlando Terminal de kate"
+clear
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S kate
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S knsole
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S clang
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S markdownpart
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S python-lsp-server 
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S rust
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S svgpart
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S texlab
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S extra-cmake-modules
+echo "|--------------------------------------------------------|"
+echo "|        Instalando Kate y sus Dependencias              |"
+echo "|--------------------------------------------------------|"
+sudo pacman -S kdoctools 
+echo "|--------------------------------------------------------|"
+echo "|     Instalando Kate y sus Dependencias Finalizada      |"
+echo "|--------------------------------------------------------|"
 clear
 echo " Instalando Navegadores de internet"
 echo "|--------------------------------------------------------|"
