@@ -16,7 +16,6 @@ Video 1
 https://youtu.be/JjMdSukK3k4
 
 
-
 importante no tener otro gestor de inicio de seccion preinstalado asi te ahorraras un dolor de cabezas
 
 compartible con ArchLinux
@@ -27,10 +26,10 @@ sudo pacman -S git
 
 * instalar.sh 
 
-git clone https://github.com/Orlandoc0107/dotfiles-archlinux.git 
+git clone https://github.com/Orlandoc0107/dotfiles.git
 
-cd dotfiles-archlinux
-sudo chmod+x 
+cd dotfiles
+sudo chmod+x instalar.sh
 ./instalar.sh
 
 Listado de las aplicaciones que se instaaran automaticamente ( si desean remover alguna aplicacion lo pueden hacer con {Pacman -R Nombre-Del-Paquete})

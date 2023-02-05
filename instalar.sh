@@ -59,7 +59,8 @@ echo "Instalacion del gestor completada "
 echo "configurando"
 pwd
 cd $HOME
-cd dotfiles-archlinux
+cd dotfiles
+cd .config
 cd lightdm 
 sudo cp lightdm.conf /etc/lightdm/
 ##############################
@@ -91,7 +92,7 @@ echo "Presione una tecla para continuar"
 read 
 echo "Servicios Habilitado"
 echo "se usar nmcli"
-nmcli device
+nmcli device wifi list
 echo "|--------------------------------------------------------|"
 echo "|  Ingrese el nombre de la red Wifi que desea conectarse |"
 echo "|________________________________________________________|"
@@ -197,9 +198,6 @@ echo "|--------------------------------------------------------|"
 ################################
 pwd
 cd $HOME
-cp $HOME/dotfiles-archlinux/picom.conf $HOME/.config
-pwd
-cd $HOME
 touch .xprofile
 echo "udiskie &" >> .xprofile
 echo "sxhkd &" >> .xprofile
@@ -219,40 +217,73 @@ mkdir sxhkd
 mkdir nitrogen
 mkdir fondos
 mkdir kitty
-
-cd $HOME/dotfiles-archlinux
+#
+cd $HOME
+cd dotfiles
+cd .config
 cd bspwm 
 cp bspwmrc $HOME/.config/bspwm
 #
-cd $HOME/dotfiles-archlinux
+cd $HOME
+cd dotfiles
+cd .config
 cd polybar
 cp config.ini $HOME/.config/polybar
 #
-cd $HOME/dotfiles-archlinux
+cd $HOME
+cd dotfiles
+cd .config
 cd sxhkd 
 cp sxhldrc $HOME/.config/sxhkf
 #
-cd $HOME/dotfiles-archlinux
+cd $HOME
+cd dotfiles
+cd .config
 cd nitrogen 
 cp bg-saved.cfg $HOME/.config/nitrogen
 cp nitrogen.cfg $HOME/.config/nitrogen 
 #
-cd $HOME/dotfiles-archlinux
-cd fondos/linux-arch-linux-1920x1080-technology-linux-hd-art-wallpaper-preview.jpg $HOME/.config/fondos
+cd $HOME
+cd dotfiles
+cd .config
+cd fondos
+cp fondo1.jpg $HOME/.config/fondos
 #
-cd $HOME/dotfiles-archlinux
+cd $HOME
+cd dotfiles
+cd .config
 cd kitty
 cp kitty.conf $HOME/.config/kitty
 #
-cd $HOME/dotfiles-archlinux
+cd $HOME
+cd dotfiles
+cd .config
 cd Adwaita
 sudo cp cursors/* /usr/share/icons/Adwaita/cursors/
 #
-cd $HOME/dotfiles-archlinux
+cd /
+cd usr
+cd share
 cd fonts
-sudo cp Terminus /usr/share/fonts/
+mkdir Terminus
+cd $HOME
+cd dotfiles
+cd .config
+sudo cp Terminus/* /usr/share/fonts/Terminus/
 
-
+clear
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
 echo "Configuracion finalizada"
 echo "_________________________________________________________________________________________"	
 echo "|#######                                                    ###     #     ###   ####### |" 
