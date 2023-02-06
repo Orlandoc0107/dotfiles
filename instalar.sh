@@ -126,7 +126,7 @@ clear
 echo "|--------------------------------------------------------|"
 echo "|                Themes Incoos Arch Linux                |"
 echo "|--------------------------------------------------------|"
-sudo pacman -S arc-gtk-theme arc-icon-theme --noconfirm --needed
+sudo pacman -S geh arc-gtk-theme arc-icon-theme --noconfirm --needed
 clear 
 echo "|--------------------------------------------------------|"
 echo "|     Cuida de ojos , Instalando Backlight_Control       |"
@@ -184,6 +184,10 @@ echo "|--------------------------------------------------------|"
 echo "|     Instalando Kate y sus Dependencias Finalizada      |"
 echo "|--------------------------------------------------------|"
 clear
+echo "Instalando python-pip"
+echo "Herramienta para instalar paquetes e libreria de Python "
+sudo pacman -S python-pip
+python3 -m pip install --upgrade pip
 echo " Instalando Navegadores de internet"
 echo "|--------------------------------------------------------|"
 echo "|               Instalando Firefox lynx w3m              |"
@@ -214,7 +218,7 @@ echo "|                        Spotify                         |"
 echo "|--------------------------------------------------------|"
 echo "Instalando Spotify"
 sudo pacman -S spotify-launcher --noconfirm
-echo "----------------------------------"
+echo "----------------------------------------------------------"
 clear
 echo "|--------------------------------------------------------|"
 echo "|           Instalando Formatos de discos                |"
@@ -340,6 +344,7 @@ echo "|#     # #   #  #      #    # #   ## #    # #    # #    #  #   #    #    #
 echo "|####### #    # ###### #    # #    # #####   ####   ####    ###   #####   ###     #     |"
 echo "|_______________________________________________________________________________________|"
 echo " "
+sudo pacman -S tensorflow
 read
 echo "Preione una tecla para Reiniciar el Sistema "
 reboot 
