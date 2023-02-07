@@ -319,6 +319,18 @@ cd $HOME
 cd dotfiles
 cd .config
 sudo cp Terminus/* /usr/share/fonts/Terminus/
+##############################################
+clear
+
+################################
+echo "|--------------------------------------------------------|"
+echo "|                   Cambiar Shell a ZSH                  |"
+echo "|--------------------------------------------------------|"
+################################
+################################
+sudo pacman -S zsh zsh-completions
+chsh -s /bin/zsh
+
 
 clear
 echo

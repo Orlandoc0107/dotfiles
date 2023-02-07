@@ -38,4 +38,46 @@ Pacman -S git lightdm lightdm-gtk-greeter dhcpcd networkmanager kitty xterm lsd 
 
 
 
-yay -S backlight_control 
+yay -S backlight_control zsh zsh-completions
+
+
+
+Personalizacion de zsh se recomienda personalizarlamanualmente .
+
+sudo pacman -S git curl
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+nano ~/.zshrc
+
+Y buscamos ZSH_THEME=»robbyrusell», para cambiarlo por ZSH_THEME=»agnoster»
+
+
+yay -S --noconfirm zsh-theme-powerlevel10k-git
+
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+sudo pacman -S powerline-common awesome-terminal-fonts
+
+yay -S --noconfirm ttf-meslo-nerd-font-powerlevel10k
+
+p10k configure
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+
+nano ~/.zshrc
+
+cuando estemos editando el zshrc buscamos en plugins para agregar las siguientes lineas:
+
+plugins=(git
+zsh-autosuggestions
+zsh-syntax-highlighting
+)
+
+recargamos o cerramos seccion si no carga alguna configuracion .
+
