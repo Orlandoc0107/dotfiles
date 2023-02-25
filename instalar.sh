@@ -239,6 +239,12 @@ echo "Instalando Codecs de Videos"
 sudo pacman -S ffmpeg aom libde265 x265 x264 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame --noconfirm --needed 
 sudo pacman -S vlc --noconfirm --needed
 clear 
+# obsidia programa para guardar  
+sudo pacman -S obsidia
+echo "|--------------------------------------------------------|"
+echo "|                   Instalando Obsidia                   |"
+echo "|--------------------------------------------------------|"
+clear
 ################################
 #Dotfiles
 echo "|--------------------------------------------------------|"
