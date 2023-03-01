@@ -1,4 +1,5 @@
 # dotfiles-archlinux
+[![fondo.png](https://i.postimg.cc/sxPF357y/fondo.png)](https://postimg.cc/y3NpPgLr) 
 
 - Muchisimas gracias a la Comunidad linuxera
 
@@ -34,10 +35,12 @@ sudo chmod+x instalar.sh
 
 Listado de las aplicaciones que se instaaran automaticamente ( si desean remover alguna aplicacion lo pueden hacer con {Pacman -R Nombre-Del-Paquete})
 
+```shell
 Pacman -S git lightdm lightdm-gtk-greeter dhcpcd networkmanager kitty xterm lsd bat xorg xorg-apps xorg-xinit xorg-twm xorg-xclock pulseaudio pavucontrol arc-gtk-theme arc-icon-theme code nano vim kate firefox lynx w3m neofetch lsb-release bspwm sxhkd dmenu polybar flex imagemagick lxappearance nitrogen picom rofi thunar thunar-volman udiskie spotify-launcher android-file-transfer android-tools android-udev msmtp libmtp libcddb gvfs gvfs-afc gvfs-smb gvfs-gphoto2 gvfs-mtp gvfs-goa gvfs-nfs gvfs-google dosfstools jfsutils f2fs-tools btrfs-progs exfat-utils ntfs-3g reiserfsprogs udftools xfsprogs nilfs-utils polkit gpart mtools ark xarchiver unarchiver binutils gzip lha lrzip lzip lz4 p7zip tar xz bzip2 p7zip lbzip2 arj lzop cpio unrar unzip zstd zip lzip unarj zstd sudo pacman -S ffmpeg aom libde265 x265 x264 libmpeg2 xvidcore libtheora libvpx schroedinger sdl gstreamer gst-plugins-bad gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly xine-lib libdvdcss libdvdread dvd+rw-tools lame vlc 
+```
 
 
-
+```shell
 yay -S backlight_control zsh zsh-completions
 
 
@@ -80,4 +83,4 @@ zsh-syntax-highlighting
 )
 
 recargamos o cerramos seccion si no carga alguna configuracion .
-
+```
