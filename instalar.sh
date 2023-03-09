@@ -147,7 +147,7 @@ sudo pacman -S kate
 echo "|--------------------------------------------------------|"
 echo "|        Instalando Kate y sus Dependencias              |"
 echo "|--------------------------------------------------------|"
-sudo pacman -S knsole
+sudo pacman -S konsole
 echo "|--------------------------------------------------------|"
 echo "|        Instalando Kate y sus Dependencias              |"
 echo "|--------------------------------------------------------|"
