@@ -240,7 +240,7 @@ sudo pacman -S ffmpeg aom libde265 x265 x264 libmpeg2 xvidcore libtheora libvpx 
 sudo pacman -S vlc --noconfirm --needed
 clear 
 # obsidia programa para guardar  
-sudo pacman -S obsidia
+sudo pacman -S obsidian
 echo "|--------------------------------------------------------|"
 echo "|                   Instalando Obsidia                   |"
 echo "|--------------------------------------------------------|"
