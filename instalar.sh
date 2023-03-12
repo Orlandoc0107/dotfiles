@@ -1,6 +1,6 @@
 #!/bin/bash
 # Autor : Orlandoc0107
-# Instlacion automatica de mi configuracion
+# Instalacion automatica de mi configuracion
 clear
 echo "----"
 echo "----"
@@ -126,7 +126,7 @@ clear
 echo "|--------------------------------------------------------|"
 echo "|                Themes Incoos Arch Linux                |"
 echo "|--------------------------------------------------------|"
-sudo pacman -S geh arc-gtk-theme arc-icon-theme --noconfirm --needed
+sudo pacman -S arc-gtk-theme arc-icon-theme --noconfirm --needed
 clear 
 echo "|--------------------------------------------------------|"
 echo "|     Cuida de ojos , Instalando Backlight_Control       |"
