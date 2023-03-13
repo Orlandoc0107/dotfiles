@@ -327,7 +327,6 @@ cd .config
 sudo cp Terminus/* /usr/share/fonts/Terminus/
 ##############################################
 clear
-
 ################################
 echo "|--------------------------------------------------------|"
 echo "|                   Cambiar Shell a ZSH                  |"
@@ -336,8 +335,6 @@ echo "|--------------------------------------------------------|"
 ################################
 sudo pacman -S zsh zsh-completions
 chsh -s /bin/zsh
-
-
 clear
 echo
 echo
@@ -362,7 +359,6 @@ echo "|#     # #   #  #      #    # #   ## #    # #    # #    #  #   #    #    #
 echo "|####### #    # ###### #    # #    # #####   ####   ####    ###   #####   ###     #     |"
 echo "|_______________________________________________________________________________________|"
 echo " "
-sudo pacman -S tensorflow
 read
 echo "Preione una tecla para Reiniciar el Sistema "
 reboot 
