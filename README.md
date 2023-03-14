@@ -1,5 +1,5 @@
 # dotfiles-archlinux
-[![fondo.png](https://i.postimg.cc/sxPF357y/fondo.png)](https://postimg.cc/y3NpPgLr) 
+[![fondo.png](https://i.postimg.cc/3rqbJzr6/fondo.png)](https://postimg.cc/8shbZK6B) 
 
 - Muchisimas gracias a la Comunidad linuxera
 
